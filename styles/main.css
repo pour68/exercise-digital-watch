@@ -1,0 +1,76 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1rem;
+    background-image: url(../img/winter.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.digital-watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.digital-watch header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.digital-watch header div {
+    background-color: black;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-right: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.digital-watch header > span {
+    background-color: black;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.25rem;
+    align-self: flex-end;
+}
+
+.day-of-week {
+    background-color: black;
+    color: #999;
+    font-size: 0.75rem;
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.date {
+    background-color: black;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+#year {
+    font-size: 2.5rem;
+}
+
+#month,#day-of-month {
+    font-size: 1rem;
+}
+
+.active {
+    color: #fff;
+    font-size: 1rem;
+}
